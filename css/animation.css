@@ -1,0 +1,54 @@
+@keyframes slide_in{
+	0%{
+		right: -100%;
+	}
+	100%{
+		right: 0;
+	}
+}
+@keyframes slide_in_767{
+	0%{
+		right: -50%;
+	}
+	100%{
+		right: 0;
+	}	
+}
+@keyframes slide_in_991{
+	0%{
+		right: -30%;
+	}
+	100%{
+		right: 0;
+	}	
+}
+@keyframes slide_out{
+	0%{
+		right: 0;
+	}
+	100%{
+		right: -100%;
+	}
+}
+@keyframes slide_out_767{
+	0%{
+		right: 0;
+	}
+	100%{
+		right: -50%;
+	}	
+}
+@keyframes slide_out_991{
+	0%{
+		right: 0;
+	}
+	100%{
+		right: -30%;
+	}	
+}
+@keyframes shine {
+	100% {
+		opacity: 1;
+		left: 125%;
+	}
+}

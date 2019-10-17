@@ -1,0 +1,169 @@
+
+@media (min-width: 460px){
+	.Portfolio-center{
+		/*float: none;*/
+		margin: 0 auto;
+	}
+	.portfolio-img{
+		padding-bottom: 10px;
+		margin-left: 10px;
+	}
+	.dot{
+		bottom: -7%;
+		/*width: 101%;*/
+		top: 33%;
+	}
+}
+@media (min-width: 768px){
+	.dot{
+		bottom: -7%;
+		/*width: 101%;*/
+		top: 31%;
+	}
+	.myworks{
+		width: 614px;
+		margin: 0 auto;
+	}
+	.clear-767{
+		clear: both;
+	}
+	.project-1,.project-2,.project-3,.project-4,.project-5,.project-6,.project-7,.project-8,.project-9,.project-10{
+		float: left;
+	}
+	.project-2,.project-4,.project-6,.project-8,.project-10{
+		margin-left: 10px;
+	}
+	.container{
+		width:80%;
+	}
+	.portfolio-img{
+		padding-bottom: 10px;
+		margin-left: 10px;
+	}
+	.banner-row{
+		padding-top:150px; 
+	}
+
+	.service-img{
+		margin-left: 80px;
+	}
+	.menu-bar{
+		right:-50%;
+		width: 50%;
+	}
+	.slide_in{
+		animation: slide_in_767 0.5s linear forwards;
+	}
+	.slide_out{
+		animation: slide_out 0.5s linear forwards;
+	}
+}
+@media (min-width: 992px){
+	.dot{
+		bottom: -20%;
+		top: 45%;
+	}
+	.menu-bar{
+		right:-30%;
+		width: 30%;
+	}
+	.nav{
+		padding: 10px 10px 5px 10px;
+		position: fixed;
+		width: 95%;
+		max-width: 1040px;
+		z-index: 100;
+	}
+	.container-nav{
+		width: 90%;
+		max-width: 1040px;
+		margin: 0 auto;
+	}
+	.banner-row {
+		padding-top: 200px;
+	}
+	.progress-res{
+		/*margin-left: 80px;*/
+		float: right;
+	}
+	.container-nav{
+		width: 90%;
+		max-width: 1040px;
+		margin: 0 auto;	
+	}
+	.portfolio-img{
+		padding-bottom: 0px;
+		margin-top: -3px;
+		margin-left: 0px;
+	}
+	.exp-col{
+		margin-top: 0px;
+	}
+	.education,.exp{
+		width: 95%;
+	}
+	.footer-form{
+		padding-top: 111px;
+	}
+	.profile-col{
+		float: right;
+	}
+	.slide_in{
+		animation: slide_in_991 0.5s linear forwards;
+	}
+	.slide_out{
+		animation: slide_out_991 0.5s linear forwards;
+	}
+}
+@media (min-width: 1200px){
+	.dot{
+		bottom: -9%;
+		top: 40%;
+		left: -129px;
+	}
+	.project-2,.project-4,.project-6,.project-8,.project-10{
+		margin-left: 0px;
+	}
+	.myworks{
+		margin: 0 auto;
+		width: 930px;
+	}
+	.clear-767{
+		clear: none;
+	}
+	.clear-991{
+		clear: both;
+	}
+	.project-1,.project-2,.project-4,.project-5,.project-7,.project-8,.project-10{
+		margin-right: 10px;
+	}
+	.menu-bar{
+		right:-30%;
+		width: 30%;
+	}
+	.service-img{
+		float: right;
+	}
+	.container{
+		width:90%;
+		max-width: 2400px;
+	}
+	.nav{
+		padding: 10px 10px 5px 10px;
+		position: fixed;
+		width: 90%;
+		max-width: 2400px;
+		z-index: 100;
+	}
+	.container-nav{
+		width: 90%;
+		max-width: 2400px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1600px){
+	.menu-bar{
+		right:-30%;
+		width: 15%;
+	}
+}

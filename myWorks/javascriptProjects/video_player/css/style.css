@@ -1,0 +1,175 @@
+.live{
+	width: 100%;
+}
+.live_container{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.controls{
+	position: relative;
+	width: 100%;
+	height: 67px;
+	bottom: 70px;
+	background: rgba(85, 85, 85, 0.9);
+	/*opacity: 0;*/
+	transition: .3s ease;
+}
+.play{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	font-size: 15px;
+	color: #eee;
+}
+.pause{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	color: #eee;
+	font-size: 15px;
+	display: none;
+}
+.duration .progress_bar{
+	-webkit-appearance: none; 
+	width: 95%;
+	height: 4px;
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	background: #eee;
+	border-radius: 20px;
+	outline: none;
+}
+.duration_time{
+	position: absolute;
+}
+.volume_down{
+	position: absolute;
+	bottom: 39px;
+	left: 351px;
+	font-size: 17px;
+	color: #eee;
+}
+.mute{
+	position: absolute;
+	bottom: 39px;
+	left: 351px;
+	font-size: 17px;
+	color: #f00;
+	display: none;
+	cursor: none;
+}
+.volume_up{
+	position: absolute;
+	bottom: 39px;
+	left: 540px;
+	font-size: 17px;
+	color: #eee;
+}
+.duration_time  #dur{
+	position: absolute;
+	top: 14px;
+	left: 800px;
+	color: #eee;
+}
+.duration_time  #cur{
+	position: absolute;
+	top: 14px;
+	left: 62px;
+	color: #eee;
+}
+.forward{
+	position: absolute;
+	color: #eee;
+	right: 390px;
+	font-size: 17px;
+	top: 11px;
+}
+.backward{
+	position: absolute;
+	color: #eee;
+	left: 400px;
+	font-size: 17px;
+	top: 11px;
+}
+.expand{
+	position: absolute;
+	top: 11px;
+	right: 15px;
+	color: #eee;
+}
+.max_vol{
+	color :rgb(30, 176, 37);
+}
+/*active state styles*/
+.volume_down:active,
+.volume_up:active{
+	color:#abcdef;
+}
+.forward:active,.backward:active{
+	color:#abcdef;
+}
+.play:active,.pause:active{
+	color:#abcdef;
+}
+.expand:active{
+	color:#abcdef;
+}
+.duration .progress_bar::-webkit-slider-thumb{
+	-webkit-appearance: none; 
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(238, 238, 238);
+}
+
+.duration .progress_bar::-webkit-slider-thumb:hover{
+	width: 12px;
+	height: 12px;
+	background: #abcdef;
+}
+.instructions ul li{
+	display: inline-block;
+}
+.instructions ul li span{
+	display: inline-block;
+	width: 70px;
+	padding: 5px 15px;
+	background: #eee;
+	text-align: center;
+	box-shadow: 0px 0px 1px 1px #888;
+}
+.instructions	{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

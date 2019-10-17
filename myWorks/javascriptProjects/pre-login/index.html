@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pre Login Form</title>
+	<link href="https://fonts.googleapis.com/css?family=Bitter&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<form method="post" action="welcome.html">
+			<div class="login_form">
+				<h2>Login Application</h2>
+				<div class="uname_div">
+					<label>User Name</label>
+					<input type="text" name="uname" class="uname" required>
+				</div>
+				<div class="password_div">
+					<label>Password</label>
+					<input type="password" name="password" class="password" required>
+				</div>
+				<div class="forgot_password">
+					<a href="forgot_password.html"><span>Forgot Password</span></a>
+				</div>
+				<div class="login_button_div">
+					<input type="submit" value="Login Now" class="login_button"/>
+				</div>
+				<div class="create_account_div">
+					<span>Don't you have an account?</span>
+					<a href="create.html">Create Account</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

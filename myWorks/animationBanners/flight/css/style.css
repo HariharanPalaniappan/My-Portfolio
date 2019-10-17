@@ -1,0 +1,152 @@
+.container{
+	width: 300px;
+	height: 250px;
+	background: linear-gradient(to bottom right, #f74950 20%, #fcad50 80%);
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.aero-right{
+	position: absolute;
+	width: 200px;
+	left: 350px;
+	top: 42px;
+}
+.aero-left{
+	position: absolute;
+	width: 200px;
+	right: 350px;
+	top: 200px;
+	
+}
+
+.hot-img{
+	width: 133px;
+	position: absolute;
+	left: -133px;
+	top: 60px;
+	z-index: 2;
+}
+
+.content{
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	top: 94px;
+	left: 300px;
+	font-size: 60px;
+	color: #fff;
+	z-index: 1;
+	font-weight: 600;}
+	.slide2{
+		width: 280px;
+		height: 240px;
+		left: 10px;
+		background: #f0f0f0;
+		position: absolute;
+		top: 250px;
+	}
+	.header{
+		width: 280px;
+		height: 80px;
+		background: linear-gradient(to bottom right, #481759 0%, #762b92 100%);
+		position: absolute;
+		left: 10px;
+		top: 250px;
+	}
+	.banner{
+		top: 250px;
+		left: 20px;
+	}
+	.header img{
+		width: 200px;
+		height: 47px;
+		position: absolute;
+		left: 44px;
+		top: 7px;
+	}
+	.content2{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		position: absolute;
+		font-size: 40px;
+		display: inline-block;
+		color: #4a4a4a;
+		top: 250px;
+		left: 20px;
+	}
+	.content3{
+		position: absolute;
+		top: 250px;
+		left: 20px;
+		font-size: 12px;
+		color: #9d9d9d;
+	}
+	.aeroplane{
+		position: absolute;
+		width: 28px;
+		height: 27px;
+		top: 250px;
+		left: 120px;
+	}
+	.content4{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		position: absolute;
+		font-size: 40px;
+		display: inline-block;
+		top: 250px;
+		left: 180px;
+		color: #4a4a4a;
+	}
+	.content5{
+		position: absolute;
+		top: 250px;
+		left: 180px;
+		font-size: 12px;
+		color: #9d9d9d;
+	}
+	.butt{
+		font-family: 'Raleway', sans-serif;
+		font-size: 15px;
+		position: absolute;
+		top: 250px;
+		width: 258px;
+		height: 53px;
+		left: 20px;
+		border: 1px dashed #c7c7c7;
+		font-weight: 800;
+		color: #d0011b;
+	}
+	.slide-ani-1{
+		top: 10px;
+	}
+	.s2-head-1{
+		top: 10px;
+	}
+	.ani5-1{
+		top: 100px;
+	}
+	.ani6-1{
+		top: 140px;
+	}
+	.ani7-1{
+		top: 108px;
+	}
+	.ani8-1{
+		top: 100px;
+	}
+	.ani9-1{
+		top: 140px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+

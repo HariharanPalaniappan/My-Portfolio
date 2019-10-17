@@ -1,0 +1,59 @@
+body{
+	background: #888;
+}
+h2{
+    text-align: center;
+    color: #eee;
+}
+input{
+	color: #ABCDEF;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #eee;
+	background: transparent;
+	margin-bottom: 20px;
+	width: 300px;
+}
+input:focus{
+	background: #eee;
+	color: #888;
+}
+button{
+	color: #eee;
+	border: 1px solid #eee;
+	outline: 0;
+	background: #888;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 700;
+}
+button:hover{
+	color: #555;
+	background: #eee;
+	transition: 0.5s ease;
+}
+label{
+	color: #eee;
+	display: block;
+}
+.form{
+	width: 300px;
+	margin: 130px auto;
+}
+.emi
+{
+	color: #888;
+	background-color: #dce4e8;
+	border: 1px solid #dce4e8;
+	box-shadow: 0 2px 2px #ccc;
+	width: 220px;
+	padding: 20px;
+	transition: transform .2s;
+	margin: 3px auto;
+}
+.emi:hover
+{
+	transform: scale(1.05);
+}

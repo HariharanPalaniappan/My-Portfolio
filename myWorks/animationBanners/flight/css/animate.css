@@ -1,0 +1,234 @@
+.ani1{
+	animation: moveleft 5s;
+}
+.ani2{
+	animation: moveright 5s;
+}
+.ani3{
+	animation: hotmove 5s;
+
+}
+.ani4{
+	animation: fontmove 5s;
+
+}
+.slide-ani{
+	animation: slide2 .3s forwards;
+
+}
+.s2-head{
+	animation: slide2-head .3s forwards;	
+}
+.ani5{
+	animation: co-1 .3s forwards;
+}
+.ani6{
+	animation: co-2 .3s forwards;
+}
+.ani7{
+	animation: aero .3s forwards;
+}
+.ani8{
+	animation: co-3 .3s forwards;
+}
+.ani9{
+	animation: co-4 .3s forwards;
+}
+.butt-ani{
+	animation: buttmove .3s forwards;
+}
+/*reverse*/
+.slide-ani-1{
+	animation: slide2-1 .5s  forwards;
+
+}
+.s2-head-1{
+	animation: slide2-head-1 .3s  forwards;	
+}
+.ani5-1{
+	animation: co-1-1 .3s  forwards;
+}
+.ani6-1{
+	animation: co-2-1 .3s  forwards;
+}
+.ani7-1{
+	animation: aero-1 .3s  forwards;
+}
+.ani8-1{
+	animation: co-3-1 .3s  forwards;
+}
+.ani9-1{
+	animation: co-4-1 .3s  forwards;
+}
+.butt-ani-1{
+	animation: buttmove-1 .3s  forwards;
+}
+
+@keyframes moveleft{
+	0%{
+		left: 350px;
+	}
+	100%{
+		left: 100px;
+	}
+}
+@keyframes moveright{
+	0%{
+		right: 350px;
+	}
+	100%{
+		right: 100px;
+	}
+}
+@keyframes hotmove{
+	0%{
+		left: -133px;
+	}
+	25%{
+		left: 0px;
+	}
+	100%{
+		left: 0px;
+	}
+}
+@keyframes fontmove{
+	0%{
+		left: 300px;
+	}
+	25%{
+		left: 108px;
+	}
+	100%{
+		left: 108px;
+	}
+	
+}
+@keyframes slide2{
+	0%{
+		top: 250px;
+	}
+	100%{
+		top: 10px;
+	}
+}
+@keyframes slide2-head{
+	0%{
+		top: 250px;
+	}
+	100%{
+		top: 10px;
+	}
+}
+@keyframes co-1{
+	0%{
+		top:250px;
+	}
+	100%{
+		top: 100px;
+	}
+}
+@keyframes co-2{
+	0%{
+		top:250px;
+	}
+	100%{
+		top: 140px;
+	}
+}
+@keyframes aero{
+	0%{
+		top: 250px;
+	}
+	100%{
+		top: 108px;
+	}
+}
+@keyframes co-3{
+	0%{
+		top:250px;
+	}
+	100%{
+		top: 100px;
+	}
+}
+@keyframes co-4{
+	0%{
+		top:250px;
+	}
+	100%{
+		top: 140px;
+	}
+}
+@keyframes buttmove{
+	0%{
+		top: 250px;
+	}
+	100%{
+		top: 180px;	
+	}
+}
+/*reverse*/
+@keyframes slide2-1{
+	0%{
+		top: 10px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes slide2-head-1{
+	0%{
+		top: 10px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes co-1-1{
+	0%{
+		top:100px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes co-2-1{
+	0%{
+		top:140px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes aero-1{
+	0%{
+		top: 108px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes co-3-1{
+	0%{
+		top:100px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes co-4-1{
+	0%{
+		top:140px;
+	}
+	100%{
+		top: 250px;
+	}
+}
+@keyframes buttmove-1{
+	0%{
+		top: 180px;
+	}
+	100%{
+		top: 250px;	
+	}
+}

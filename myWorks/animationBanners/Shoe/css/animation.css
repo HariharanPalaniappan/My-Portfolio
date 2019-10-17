@@ -1,0 +1,190 @@
+.shoe_1{
+	animation: shoe_1 .5s forwards;
+}
+.slide_1{
+	animation: bg_sli .5s forwards;
+}
+.lux_1{
+	animation: lux .5s forwards;
+}
+.qul_1{
+	animation: qul .5s forwards;
+}
+.sho_1{
+	animation: sho .5s forwards;
+}
+.f_m_1{
+	animation: f_m .5s forwards;
+}
+.con_ani{
+	animation: con .5s forwards;
+}
+.sli_2{
+	animation: sli_2 .5s forwards;
+}
+.shoe_2{
+	animation: sho_2 .5s forwards;
+}
+.per_1{
+	animation: per 1s forwards;
+}
+.dis_1{
+	animation: dis 1s forwards;
+	
+}
+.btt_1{
+	animation: btt 1s forwards;
+}
+.shoe_2_1{
+	animation: sho_2_1 1s forwards;
+}
+.per_1_1{
+	animation: per_1 0.7s forwards;
+}
+.dis_1_1{
+	animation: dis_1 1s forwards;
+	
+}
+.btt_1_1{
+	animation: btt_1 1s forwards;
+}
+@keyframes shoe_1{
+	0%{
+		top: -118px;
+	}
+	100%{
+		top: 31px;
+	}
+}
+@keyframes bg_sli{
+	0%{
+		bottom: -160px;
+	}
+	100%{
+		bottom: 0px;
+	}
+}
+@keyframes lux{
+	0%{
+		left: -190px;
+	}
+	100%{
+		left: 17px;
+	}
+}
+@keyframes qul{
+	0%{
+		right: -66px;
+	}
+	100%{
+		right: 22px;
+	}
+}
+@keyframes sho{
+	0%{
+		right: -47px;
+	}
+	100%{
+		right: 38px;
+	}
+}
+@keyframes f_m{
+	0%{
+		right: -66px;
+	}
+	100%{
+		right: 17px;
+	}
+}
+@keyframes con{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: .3;
+	}
+}
+@keyframes sli_2{
+	0%{
+		opacity: 0;
+		transform: scale(0);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes sho_2{
+	0%{
+		top:-240px;
+	}
+	100%{
+		top: 0px;
+	}
+}
+@keyframes per{
+	0%{
+		right:-200px;
+	}
+	100%{
+		right: -20px;
+	}
+}
+@keyframes dis{
+	0%{
+		right:-120px;
+	}
+	100%{
+		right: 34px;
+	}
+}
+@keyframes btt{
+	0%{
+		opacity: 0;
+		transform: scale(0);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes sho_2_1{
+	0%{
+		top: 0px;
+		left: 10px;
+	}
+	100%{
+		top: 10px;
+		left:-140px;
+	}
+}
+@keyframes per_1{
+	0%{
+		right: -20px;
+		
+	}
+	100%{
+		right:-200px;
+	}
+}
+@keyframes dis_1{
+	0%{
+		right: 20px;
+		
+	}
+	100%{
+		right:-120px;
+	}
+}
+@keyframes btt_1{
+	0%{
+		opacity: 1;
+		right: 15px;
+	}
+	100%{
+		opacity: 1;
+		right: -135px;
+		
+	}
+}

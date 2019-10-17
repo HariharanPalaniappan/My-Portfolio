@@ -1,0 +1,106 @@
+body{
+	background: #f8f8f8;
+}
+button,input{
+	outline: none;
+}
+.container{
+	max-width: 430px;
+	width: 100%;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-shadow: 0 25px 25px #ccc;
+	border: 1px solid #eee;
+	text-align: center;
+}
+.logo{
+	padding: 50px 0px;
+	background: #5c2e91;
+	text-align: center;
+	border-top-left-radius:13px ;
+	border-top-right-radius: 13px;
+}
+.login_form h2{
+	font-size: 27px;
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.login_form h2{
+	font-size: 27px;
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.uname_div{
+	padding-bottom: 15px;
+}
+.uname_div label{
+	display: block;
+	color: #6C7A89;
+	font-size: 14px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	text-align: left;
+	margin-left: 20px;
+}
+.uname_div input{
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #eee;
+	outline: 0;
+	width: 90%;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.reset_password{
+	background: #303437;
+	border-radius: 9px;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 56px;
+	margin-top: 20px;
+	padding: 15px 0;
+	width: 85%;
+	border: 1px solid #000;
+}
+.login_button_div{
+	padding-top: 30px;
+}
+.create_account_div span{
+	display: block;
+	color: #6c7a89;
+	padding-bottom: 15px;
+}
+.create_account_div a{
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 15px 130px;
+	border-radius: 10px;
+}
+.create_account_div{
+	padding-bottom: 30px;
+}
+.login_div span{
+	display: block;
+	color: #6c7a89;
+	padding-bottom: 15px;
+}
+.login_div a{
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 15px 130px;
+	border-radius: 10px;
+}
+.login_div{
+	padding-bottom: 50px;
+}

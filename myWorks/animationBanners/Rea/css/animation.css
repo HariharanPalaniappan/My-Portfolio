@@ -1,0 +1,48 @@
+.rea_1{
+	animation: rea_1 1s forwards;
+}
+.cont_1{
+	animation: rea_1 1s forwards;
+
+}
+.butt_1{
+	animation: rea_1 1s forwards;
+	
+}
+
+.rea_2{
+	animation: rev 1s forwards;
+}
+.cont_2{
+	animation: rev 1s forwards;
+
+}
+.cloud_1{
+	animation: rea_1 1s forwards;
+
+}
+.cloud_2{
+	animation: rea_1 1s forwards;
+
+}
+@keyframes rea_1{
+	0%{
+		opacity: 0;
+		transform: scale(0);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes rev{
+	0%{
+		opacity: 1;
+		transform: scale(1);
+	}
+	100%{
+
+		opacity: 0;
+		transform: scale(0);
+	}
+}
